@@ -1,16 +1,33 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    
+    
+}
+h1{
+    font-weight: 700;
 }
 .half-width{  
         width: 50%;
-        margin: 40px 10px 20px 10px;
+        margin: 40px 30px 20px 10px;
         border: 15px 25px white;
+}
+.flexible{
+    display: flex;
+}
+.box{
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 20px 30px 40px grey;
+    padding-left: 40px;
+    border-radius: 5px; 
 }
 h1{
     font-size: 50px;
 }
-.flexible{
-    display: flex;
+
+.half-width img{
+    width: 20%;
 }
 .link-button{
     text-decoration: none; 
@@ -22,8 +39,16 @@ h1{
 }
 footer{
     text-align: center;
-    background-color:chartreuse;
-    
+    background-color:black;
+    color: white;
+    height: 150px;
+    padding-top: 20px;
+    margin: 0%;
+}
+.first-section img{
+    height: 100%;
+    width: 50%;
+    padding-left: 50px;
 }
 .change-color{
     color: brown;
@@ -31,6 +56,8 @@ footer{
 }
 .background{
     background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    
 
 }
 .middle{
