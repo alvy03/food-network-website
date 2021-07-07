@@ -63,8 +63,9 @@ footer{
 .background{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+}
+.image-adjust{
     
-
 }
 .middle{
     text-align: center;
