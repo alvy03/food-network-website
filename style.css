@@ -1,15 +1,61 @@
 body{
     font-family: 'Source Sans Pro', sans-serif; 
-    margin-left: 5%;
-     
+    margin-top: 5%; 
 }
 h1{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 50px; 
+      
+}
+.flexible{
+    display: flex;
     
+}  
+#first{
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-bottom: 6%; 
+    margin-right: 5%;
+    padding-left: 10px;  
+    padding-top: 5px;
+} 
+.link-button{
+    text-decoration: none; 
+    background-image: linear-gradient(rgb(240, 114, 11), rgb(247, 9, 9));
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 25px; 
+    margin-top: 100px;   
+} 
+.sub-part{
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.half-width{  
+    display: flex;
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.half-width2{  
+    display: flex;
+    width: 50%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width2 img{
+    width: 60%;
+}
+p{
+    font-size: 20px;
 }
 h2{
-    font-weight: 600;
+    font-weight: 700;
 }
 .unique{
     font-weight: 700;
@@ -19,18 +65,12 @@ h2{
     padding-left: 10%;
     padding-right: 10%;
 }
-
-.backgroundddd{
-    background-image: url(images/7.png);
+.second-part{
+    margin-top: 10%;
 }
-.link-button{
-    text-decoration: none; 
-    background-image: linear-gradient(rgb(240, 114, 11), rgb(247, 9, 9));
-    color: white;
-    font-weight: 700;
-    padding: 10px 40px;
-    border-radius: 25px; 
-    margin-top: 40px;   
+.background2{
+    background-image: url(images/7.png);
+    margin: 0%;
 }
 footer{
     text-align: center;
@@ -66,29 +106,12 @@ footer{
     display: flex;
 }
 
-
-.half-width{  
-    display: flex;
-    width: 50%;
-    padding-bottom: 5%;
-}
 .extra{
     margin-top: 10%;
     margin-left: 5%;
 }
-#first{
-    margin-top: 15%;
-    margin-left: 4%;
-    margin-bottom: 3%;
+
     
-}
-.half-width img{
-    width: 100%;
-}
-.flexible{
-    display: flex;
-    
-}
 .new-layout{
     
     border-radius: 30px;
@@ -120,4 +143,13 @@ footer{
 }
 .mmmm{
     width: 100%;
+}
+.box{
+    box-shadow: 30px 25px 40px grey;
+    border:10px grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
