@@ -9,7 +9,7 @@ h1{
     
 }
 h2{
-    font: 50px;
+    font-weight: 600;
 }
 .unique{
     font-weight: 700;
@@ -20,14 +20,8 @@ h2{
     padding-right: 10%;
 }
 
-.box{
-    width: 400%;
-    font-size: small;
-    margin-left: 55%;
-    margin-right: 15%;
-    box-shadow: 20px 30px 40px grey;
-    
-    border-radius: 5px; 
+.backgroundddd{
+    background-image: url(images/7.png);
 }
 .link-button{
     text-decoration: none; 
@@ -58,6 +52,7 @@ footer{
 .background{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    margin-left: 0%;
 }
 
 .middle{
@@ -76,9 +71,10 @@ footer{
     display: flex;
     width: 50%;
     padding-bottom: 5%;
-
-    
-
+}
+.extra{
+    margin-top: 10%;
+    margin-left: 5%;
 }
 #first{
     margin-top: 15%;
@@ -87,38 +83,41 @@ footer{
     
 }
 .half-width img{
-    align-content: center;
     width: 100%;
 }
 .flexible{
     display: flex;
     
 }
-.split{
-    border: 1px solid white;
+.new-layout{
+    
     border-radius: 30px;
     display: flex;
   
     padding: 20px;
-    box-shadow: 10px 15px 25px grey;
+    
+}
+.three image{
+    width: 100%;
+}
+.new-layout image{
+    width: 50%;
+}
+.boxxed{
+    box-shadow: 30px 25px 40px grey;
     margin-top: 5px;
     margin-bottom: 15px ;
     margin-left: 10px;
     margin-right: 10px;
-    border: 15px 25px rgb(112, 109, 109);
+    border-radius: 30px;
+    border: 10px solid white;
+    border-image-width: 30%;
+    
+
 }
-.split image{
+.boxxed img{
     width: 100%;
 }
-.box{
-    border: red;
-    width: 60%;
-    height: 80%;
-    margin-left: 5%;
-    margin-right: 5%;
-    box-shadow: 20px 30px 40px grey;
-    border-radius: 5px; 
-    margin-bottom: 5%;
-    margin-top: 5%;
-    
+.mmmm{
+    width: 100%;
 }
