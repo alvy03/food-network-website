@@ -1,39 +1,33 @@
 body{
-    font-family: 'Source Sans Pro', sans-serif;   
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin-left: 5%;
+     
 }
 h1{
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 30px;
+    
 }
 h2{
     font: 50px;
 }
-
-.half-width{  
-        width: 50%;
-        margin: 40px 30px 20px 10px;
-        border: 15px 25px rgb(112, 109, 109);
+.unique{
+    font-weight: 700;
 }
+
 .half{
     padding-left: 10%;
     padding-right: 10%;
 }
-.flexible{
-    display: flex;
-}
+
 .box{
     width: 400%;
+    font-size: small;
     margin-left: 55%;
     margin-right: 15%;
     box-shadow: 20px 30px 40px grey;
-    padding-left: 40px;
+    
     border-radius: 5px; 
-}
-h1{
-    font-size: 50px;
-}
-
-.half-width img{
-    width: 20%;
 }
 .link-button{
     text-decoration: none; 
@@ -41,13 +35,14 @@ h1{
     color: white;
     font-weight: 700;
     padding: 10px 40px;
-    border-radius: 25px;    
+    border-radius: 25px; 
+    margin-top: 40px;   
 }
 footer{
     text-align: center;
     background-color:black;
     color: white;
-    height: 150px;
+    height: 200px;
     padding-top: 20px;
     margin: 0%;
 }
@@ -64,9 +59,7 @@ footer{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
 }
-.image-adjust{
-    
-}
+
 .middle{
     text-align: center;
     padding-top: 5%;
@@ -74,20 +67,48 @@ footer{
     padding-right: 20%;
     padding-bottom: 5%; 
 }
-.box-style{
-    box-shadow: 15px 15px 25px grey;
-    width:  60%;
-    height: 90%;
-    display: half-width;
-    margin: 2%;
-    border:px solid white;
-    border-radius: 35px;
-    padding: 20px;
+.three-parts{
+    display: flex;
 }
-.box-style img{
-    width: 95%;
-    height: 80%;
-    padding: 5px;
+
+
+.half-width{  
+    display: flex;
+    width: 50%;
+    padding-bottom: 5%;
+
+    
+
+}
+#first{
+    margin-top: 15%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+    
+}
+.half-width img{
+    align-content: center;
+    width: 100%;
+}
+.flexible{
+    display: flex;
+    
+}
+.split{
+    border: 1px solid white;
+    border-radius: 30px;
+    display: flex;
+  
+    padding: 20px;
+    box-shadow: 10px 15px 25px grey;
+    margin-top: 5px;
+    margin-bottom: 15px ;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 15px 25px rgb(112, 109, 109);
+}
+.split image{
+    width: 100%;
 }
 .box{
     border: red;
